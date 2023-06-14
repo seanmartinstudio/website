@@ -8,4 +8,40 @@ html, body {
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
+    /* text-transform: uppercase; */
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+
+h2 {
+   margin: 0; 
+   /* font-size: 1.875em; */
+}
+
+img {
+    margin-left: -30px;
+    margin-right:-50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
