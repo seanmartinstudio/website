@@ -5,7 +5,8 @@ const fetchLocalTime = () => {
       .then(response => response.json())
       .then(data => {
         let currentTime = new Date(data.formatted)
-        currentTime = currentTime.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+        currentTime = currentTime.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", minimumIntegerDigits: 1 })
+        console.log(currentTime)
         updateCurrentTimeUI(currentTime)
       })
       .catch(error => {
@@ -14,8 +15,10 @@ const fetchLocalTime = () => {
   }
 
     const updateCurrentTimeUI = (apiTime) => {
+        //Removes leading zero in hour time
+        let currentTime = apiTime.replace(/^0/, '')
         let element = document.getElementById(`current_time`)
-        element.innerText = apiTime
+        element.innerText = currentTime
     }
 
     fetchLocalTime()
