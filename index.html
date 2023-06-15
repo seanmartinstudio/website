@@ -8,18 +8,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src=".script.js" async></script>
-    <title>Document</title>
+    <script src="/script.js" async></script>
+    <title>Sean Martin Software Developer</title>
 </head>
 <body>
     <header id="header" class="header">
-        <figure>
-            <img src="/media/bolt_logo.png" alt="white lighting bolt" width="75">
-        </figure>
-        <div class="title">
-            <h1>Sean Martin</h1>
-            <h2>Web Developer</h2>
+        <div class="titleLogoContainer">
+            <figure>
+                <img src="/media/bolt_logo.png" alt="white lighting bolt" width="75">
+            </figure>
+            <div class="title">
+                <h1>Sean Martin</h1>
+                <h2>Software Developer</h2>
+            </div>
         </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/seanmartinstudio">GitHub</a></li>
+            </ul>
+        </nav>
     </header>
 
 <!-- 
@@ -31,13 +40,15 @@
         </ul>
     </div> -->
 
-    <article id="copy" class="copy">
-        <p>Hi, I am a web designer in Santa Monica, where the current time is 4:20pm and the temperature is 79 degrees.</p>
+    <article id="about" class="about">
+        <div class="empty"></div>
+            <p>Hi, I am a web designer in Santa Monica, where the current time is <span id="current_time"></span> and the temperature is 79 degrees.</p>
+        <div class="empty"></div>
     </article>
 
-    <div id="contact" class="contact">
+    <section id="contact" class="contact">
         <a href="mailto:sean@seanmartinstudio.com">sean@seanmartinstudio.com</a>
-    </div>
+    </section>
 
 </body>
 </html>
