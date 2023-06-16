@@ -1,4 +1,6 @@
 
+console.log("%c \n© Sean Martin 2023\n", "color: grey")
+
 //Local Time
 const fetchLocalTime = () => {
     fetch('http://api.timezonedb.com/v2.1/get-time-zone?key=ZMZNE61B4AJ5&format=json&by=position&lat=34.024212&lng=-118.496475')
@@ -6,7 +8,7 @@ const fetchLocalTime = () => {
       .then(data => {
         let currentTime = new Date(data.formatted)
         currentTime = currentTime.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", minimumIntegerDigits: 1 })
-        console.log(currentTime)
+        // console.log(currentTime)
         updateCurrentTimeUI(currentTime)
       })
       .catch(error => {
@@ -15,7 +17,7 @@ const fetchLocalTime = () => {
   }
 
     const updateCurrentTimeUI = (apiTime) => {
-        //Removes leading zero in hour time
+        //Uses regular expression to remove leading zero in hour time
         let currentTime = apiTime.replace(/^0/, '')
         let element = document.getElementById(`current_time`)
         element.innerText = currentTime

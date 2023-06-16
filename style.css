@@ -25,10 +25,12 @@ ul {
 h1 {
     margin: 0;
     font-size: 2.5em;
+    font-weight: 700;
   }
 
 h2 {
    margin: 0; 
+   font-weight: 500;
 }
 
 img {
@@ -42,7 +44,7 @@ img {
     position: fixed;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
+    /* height: 100px; */
 }
 
 .titleLogoContainer {
@@ -58,15 +60,25 @@ img {
 
 .navigation {
     padding-right: 35px;
+    display: flex;
 }
 
 .navigation ul li {
     padding: 5px;
+    font-weight: 300;
 }
 
 a {
     color: white;
+    text-decoration: none;
+}
 
+a:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background-position 0.3s ease-in-out;
 }
 
 /* About Section */
@@ -78,8 +90,14 @@ a {
     height: 100vh;
 }
 
+.bioContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .about p {
     font-size: 30px;
+    font-weight: 300;
 }
 
 .empty {
@@ -99,4 +117,5 @@ a {
     text-decoration: none;
     font-size: 2.5em;
     color: white;
+    font-weight: 300;
 }
