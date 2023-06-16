@@ -8,7 +8,6 @@ const fetchLocalTime = () => {
       .then(data => {
         let currentTime = new Date(data.formatted)
         currentTime = currentTime.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", minimumIntegerDigits: 1 })
-        // console.log(currentTime)
         updateCurrentTimeUI(currentTime)
       })
       .catch(error => {
