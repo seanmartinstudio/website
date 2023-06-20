@@ -1,6 +1,23 @@
 
 console.log("%c \n© Sean Martin 2023\n", "color: grey")
 
+
+//CORS
+var express = require('express')
+var cors = require('cors')
+var app = express()
+
+app.use(cors())
+
+app.get('/products/:id', function (req, res, next) {
+  res.json({msg: 'This is CORS-enabled for all origins!'})
+})
+
+app.listen(80, function () {
+  console.log('CORS-enabled web server listening on port 80')
+})
+
+
 //Local Time
 const fetchLocalTime = () => {
     fetch('https://api.timezonedb.com/v2.1/get-time-zone?key=ZMZNE61B4AJ5&format=json&by=position&lat=34.024212&lng=-118.496475')
@@ -23,7 +40,7 @@ const fetchLocalTime = () => {
     }
 
     fetchLocalTime()
-    setInterval(fetchLocalTime, 1000)
+    setInterval(fetchLocalTime, 2000)
 
 //Local Temp API
 const fetchLocalTemp = () => {
