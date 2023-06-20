@@ -3,7 +3,7 @@ console.log("%c \n© Sean Martin 2023\n", "color: grey")
 
 //Local Time
 const fetchLocalTime = () => {
-    fetch('http://api.timezonedb.com/v2.1/get-time-zone?key=ZMZNE61B4AJ5&format=json&by=position&lat=34.024212&lng=-118.496475')
+    fetch('https://api.timezonedb.com/v2.1/get-time-zone?key=ZMZNE61B4AJ5&format=json&by=position&lat=34.024212&lng=-118.496475')
       .then(response => response.json())
       .then(data => {
         let currentTime = new Date(data.formatted)
