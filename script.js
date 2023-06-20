@@ -3,7 +3,7 @@ console.log("%c \n© Sean Martin 2023\n", "color: grey")
 
 
 //CORS
-var express = require('express')
+import express from 'express';
 var cors = require('cors')
 var app = express()
 
