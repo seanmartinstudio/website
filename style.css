@@ -68,11 +68,7 @@ a {
 }
 
 a:hover {
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: background-position 0.3s ease-in-out;
+    font-weight: 700;
 }
 
 /* About Section */
