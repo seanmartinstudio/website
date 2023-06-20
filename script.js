@@ -23,7 +23,7 @@ const fetchLocalTime = () => {
     }
 
     fetchLocalTime()
-    setInterval(fetchLocalTime, 60000)
+    setInterval(fetchLocalTime, 1000)
 
 //Local Temp API
 const fetchLocalTemp = () => {
