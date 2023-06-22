@@ -119,11 +119,6 @@ a:hover {
         overflow-x: hidden;
     }
 
-    .header {
-        position: static;
-        padding-bottom: 0;
-    }
-
     .titleLogoContainer {
         display: flex;
         flex-direction: row;
