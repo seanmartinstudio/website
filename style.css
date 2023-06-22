@@ -129,9 +129,13 @@ a:hover {
         display: none;
     }
 
-    .about {
+    /* .about {
         flex-direction: column;
-    }
+    } */
+
+    body {
+        overflow-x: hidden;
+      }
 
     .contact {
         transform: rotate(90deg);
