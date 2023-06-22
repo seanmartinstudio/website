@@ -129,10 +129,10 @@ a:hover {
         display: none;
     }
 
-    .about {
+    /* .about {
         height: 100vh;
         width: 90%;
-    }
+    } */
 
     .contact {
         transform: rotate(90deg);
