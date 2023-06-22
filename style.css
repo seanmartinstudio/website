@@ -120,7 +120,7 @@ a:hover {
     }
 
     .head {
-        position: fixed;
+        position: static;
     }
 
     .titleLogoContainer {
