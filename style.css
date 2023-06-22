@@ -112,7 +112,7 @@ a:hover {
 
 /* Mobile Styling */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     
 
     .titleLogoContainer {
@@ -124,10 +124,6 @@ a:hover {
     .navigation{
         display: none;
     }
-
-   .bioContainer {
-        width: 100vw;
-   }
 
     .contact {
         transform: rotate(90deg);
