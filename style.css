@@ -130,7 +130,7 @@ a:hover {
     }
 
     .about {
-        width: 100vw;
+        flex-direction: column;
     }
 
     .contact {
