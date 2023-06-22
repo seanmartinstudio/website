@@ -121,6 +121,7 @@ a:hover {
 
     .header {
         position: static;
+        padding-bottom: 0;
     }
 
     .titleLogoContainer {
