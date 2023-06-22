@@ -119,6 +119,10 @@ a:hover {
         overflow-x: hidden;
     }
 
+    .head {
+        position: fixed;
+    }
+
     .titleLogoContainer {
         display: flex;
         flex-direction: row;
