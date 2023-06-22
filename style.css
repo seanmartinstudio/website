@@ -120,9 +120,18 @@ a:hover {
         flex-direction: row;
         align-items: center;
     }
+
+    .header {
+        position: static;
+    }
     
     .navigation{
         display: none;
+    }
+
+    .about {
+        height: 100vh;
+        width: 90%;
     }
 
     .contact {
