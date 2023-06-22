@@ -121,22 +121,13 @@ a:hover {
         align-items: center;
     }
 
-    /* .header {
-        position: static;
-    } */
-    
     .navigation{
         display: none;
     }
 
-    /* .about {
-        flex-direction: column;
-    } */
-
-    body {
-        overflow-x: hidden;
-        width: 100%;
-      }
+   .bioContainer {
+        width: 100vw;
+   }
 
     .contact {
         transform: rotate(90deg);
