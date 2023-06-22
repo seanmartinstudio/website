@@ -121,9 +121,9 @@ a:hover {
         align-items: center;
     }
 
-    .header {
+    /* .header {
         position: static;
-    }
+    } */
     
     .navigation{
         display: none;
