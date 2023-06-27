@@ -132,5 +132,9 @@ a:hover {
     .contact {
         transform: rotate(90deg);
     }
+
+    .contact a {
+        font-size: 2em;
+    }
     
 }
