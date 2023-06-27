@@ -129,13 +129,17 @@ a:hover {
         display: none;
     }
 
+    .bioEmailLink {
+        text-decoration: underline;
+    }
+    
+
     .contact {
         transform: rotate(90deg);
     }
 
     .contact a {
         font-size: 2em;
-        text-decoration: underline;
     }
     
 }
