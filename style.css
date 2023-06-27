@@ -135,6 +135,7 @@ a:hover {
 
     .contact a {
         font-size: 2em;
+        text-decoration: underline;
     }
     
 }
