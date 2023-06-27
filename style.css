@@ -90,6 +90,11 @@ a:hover {
     font-weight: 300;
 }
 
+.bioEmailLink:hover {
+    font-style: italic;
+}
+
+
 .empty {
    flex-basis: 20vw;
 }
@@ -133,7 +138,6 @@ a:hover {
         text-decoration: underline;
     }
     
-
     .contact {
         transform: rotate(90deg);
     }
