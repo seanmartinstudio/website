@@ -7,7 +7,6 @@
 - [ ] Fix CORS issue with timezonedb endpoint fetch
 - [ ] Clean up class naming
 - [ ] Add previews and links to projects
-- [ ] Add previews and links to projects
 - [ ] Possibly use web builder to minify code
 
 [Link here!](https://seanmartinstudio.netlify.app/)
