@@ -134,6 +134,10 @@ a:hover {
         display: none;
     }
 
+    .contact {
+        display: none;
+    }
+
     .bioEmailLink {
         text-decoration: underline;
     }
