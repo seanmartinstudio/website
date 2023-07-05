@@ -141,6 +141,7 @@ a:hover {
 
     .bioEmailLink {
         text-decoration: underline;
+        font-style: normal;
     }
     
     .contact {
