@@ -129,11 +129,10 @@ a:hover {
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 100vh; 
     }
 
     .header {
-        display: none;
+        height: 100vh; 
     }
 
     .navigation{
