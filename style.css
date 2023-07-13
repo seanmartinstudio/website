@@ -143,7 +143,11 @@ a:hover {
     }
 
     img {
-        height: 500px,
+        height: 700px,
+    }
+
+    .bioContainer {
+        align-items: center;
     }
 
     .navigation{
