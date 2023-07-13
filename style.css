@@ -122,6 +122,8 @@ a:hover {
 
     html, body {
         overflow-x: hidden;
+        justify-content: center;
+        align-items: center;
     }
 
     .titleLogoContainer {
