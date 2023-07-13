@@ -142,13 +142,17 @@ a:hover {
         display: none;
     }
 
+    img {
+        height: 500px,
+    }
+
     .navigation{
         display: none;
     }
 
-    /* .contact {
+    .contact {
         display: none;
-    } */
+    }
 
     .bioEmailLink {
         text-decoration: underline;
