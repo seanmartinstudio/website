@@ -134,6 +134,12 @@ a:hover {
     .header {
         height: 100vh; 
         position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        display: none;
     }
 
     .navigation{
