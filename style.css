@@ -122,7 +122,6 @@ a:hover {
 
     html, body {
         overflow-x: hidden;
-        /* overflow-y: hidden; */
     }
 
     .titleLogoContainer {
@@ -135,9 +134,9 @@ a:hover {
         display: none;
     }
 
-    .contact {
+    /* .contact {
         display: none;
-    }
+    } */
 
     .bioEmailLink {
         text-decoration: underline;
