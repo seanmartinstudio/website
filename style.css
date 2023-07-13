@@ -122,7 +122,7 @@ a:hover {
 
     html, body {
         overflow-x: hidden;
-        justify-content: center;
+        overflow-y: hidden;
         align-items: center;
     }
 
