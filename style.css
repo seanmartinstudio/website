@@ -130,9 +130,9 @@ a:hover {
         align-items: center;
     }
 
-    /* .header {
-        position: static;
-    } */
+    .header {
+        display: none;
+    }
 
     .navigation{
         display: none;
