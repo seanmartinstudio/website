@@ -131,16 +131,12 @@ a:hover {
     }
 
     .header {
-        position: relative;
+        position: static;
     }
 
     .navigation{
         display: none;
     }
-
-    /* .about {
-        margin-top: 3px;
-    } */
 
     .contact {
         display: none;
