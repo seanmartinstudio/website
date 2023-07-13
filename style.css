@@ -134,9 +134,13 @@ a:hover {
         display: none;
     }
 
-    /* .contact {
+    .about {
+        margin-top: 10px;
+    }
+
+    .contact {
         display: none;
-    } */
+    }
 
     .bioEmailLink {
         text-decoration: underline;
