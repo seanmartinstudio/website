@@ -133,6 +133,7 @@ a:hover {
 
     .header {
         height: 100vh; 
+        position: static;
     }
 
     .navigation{
