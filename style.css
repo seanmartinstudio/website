@@ -122,7 +122,6 @@ a:hover {
 
     html, body {
         overflow-x: hidden;
-        display: flex;
         align-items: center;
     }
 
@@ -130,6 +129,10 @@ a:hover {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    .about {
+        align-items: top;
     }
 
     .header {
