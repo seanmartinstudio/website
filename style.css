@@ -130,6 +130,10 @@ a:hover {
         align-items: center;
     }
 
+    .header {
+        position: relative;
+    }
+
     .navigation{
         display: none;
     }
