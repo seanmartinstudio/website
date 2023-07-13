@@ -131,10 +131,6 @@ a:hover {
         align-items: center;
     }
 
-    .bioContainer {
-        align-items: top;
-    }
-
     .header {
         display: none;
     }
@@ -143,9 +139,9 @@ a:hover {
         display: none;
     }
 
-    .contact {
+    /* .contact {
         display: none;
-    }
+    } */
 
     .bioEmailLink {
         text-decoration: underline;
